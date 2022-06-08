@@ -1,4 +1,4 @@
-package space.sakibnm.recyclerviewdemo;
+package space.sakibnm.recyclerviewdemo.model;
 
 import java.io.Serializable;
 

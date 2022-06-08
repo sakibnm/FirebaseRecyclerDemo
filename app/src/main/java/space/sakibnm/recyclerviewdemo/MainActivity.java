@@ -10,6 +10,7 @@ import com.google.firebase.auth.FirebaseUser;
 import space.sakibnm.recyclerviewdemo.fragments.FragmentLogin;
 import space.sakibnm.recyclerviewdemo.fragments.FragmentMain;
 import space.sakibnm.recyclerviewdemo.fragments.FragmentRegister;
+import space.sakibnm.recyclerviewdemo.model.Friend;
 import space.sakibnm.recyclerviewdemo.model.FriendsAdapter;
 
 public class MainActivity extends AppCompatActivity

@@ -33,7 +33,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
-import space.sakibnm.recyclerviewdemo.Friend;
+import space.sakibnm.recyclerviewdemo.model.Friend;
 import space.sakibnm.recyclerviewdemo.R;
 import space.sakibnm.recyclerviewdemo.model.FriendsAdapter;
 
