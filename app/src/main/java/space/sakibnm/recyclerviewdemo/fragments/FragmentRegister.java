@@ -88,6 +88,7 @@ public class FragmentRegister extends Fragment implements View.OnClickListener {
         this.rep_password = String.valueOf(editTextRepPassword.getText()).trim();
 
         if(view.getId()== R.id.buttonRegister){
+//            Validations........
             if(name.equals("")){
                 editTextName.setError("Must input email!");
             }
@@ -101,9 +102,12 @@ public class FragmentRegister extends Fragment implements View.OnClickListener {
                 editTextRepPassword.setError("Passwords must match!");
             }
 
+//            Validation complete.....
             if(!name.equals("") && !email.equals("")
                     && !password.equals("")
                     && rep_password.equals(password)){
+
+                //              Firebase authentication: Create user.......
                 mAuth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
